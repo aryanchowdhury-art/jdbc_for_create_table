@@ -10,8 +10,10 @@ public class jdbcapp {
             Class.forName("com.mysql.cj.jdbc.Driver");
 
             // Creating a connection
-            String url = "jdbc:mysql://localhost:3306/(sql_user_name)";
-            String username = "sql_user_name";
+            //can apply string url as "jdbc:mysql://localhost:3306/(sql_user_name)"
+            String url = "";
+            //string user name "sql_user_name"
+            String username = "";
             String password = "(use password of sql)";
             Connection con = DriverManager.getConnection(url, username, password);
 
