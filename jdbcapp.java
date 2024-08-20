@@ -12,7 +12,7 @@ public class jdbcapp {
             // Creating a connection
             String url = "jdbc:mysql://localhost:3306/aryan";
             String username = "root";
-            String password = "7075395094";
+            String password = "(use password of sql)";
             Connection con = DriverManager.getConnection(url, username, password);
 
             // Create a query
