@@ -11,9 +11,13 @@ public class inset {
             Class.forName("com.mysql.cj.jdbc.Driver");
 
             // Creating a connection
-            String url = "jdbc:mysql://localhost:3306/(sql_user_name)";
-            String username = "(sql_user_name)";
-            String password = "(use password of sql)";
+
+            //string URL "jdbc:mysql://localhost:3306/(sql_user_name)"
+            String url = "";
+            //username (sql_user_name)
+            String username = "";
+            //password (use password of sql)
+            String password = "";
             Connection con = DriverManager.getConnection(url, username, password);
 
             //create a query
