@@ -11,7 +11,7 @@ public class jdbcapp {
 
             // Creating a connection
             String url = "jdbc:mysql://localhost:3306/(sql_user_name)";
-            String username = "root";
+            String username = "sql_user_name";
             String password = "(use password of sql)";
             Connection con = DriverManager.getConnection(url, username, password);
 
